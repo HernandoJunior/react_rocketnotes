@@ -11,3 +11,19 @@ export const Container = styled.div `
   "content";
 `
 
+export const Links = styled.ul`
+  list-style: none;
+  display: flex;
+  gap: 10px;
+
+  > li {
+    margin-top: 1px;
+  }
+
+  > li a {
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    text-decoration: none;
+    font-size: 25px;
+  }
+`
+
