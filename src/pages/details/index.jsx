@@ -1,15 +1,12 @@
 import { Container } from "./style.js"
 import { Button } from "../../components/Button/index.jsx"
+import { Header } from "../../components/Header/index.jsx"
 
 export function Details(){
   return (
     <Container>
-      <h1>Hernando Junior</h1>
-      <span>ReactJS</span>
-      <Button title= "Entrar" />
-      <Button title= "Cadastrar" />
+      <Header></Header>
       <Button title= "Voltar" />
     </Container>
   )
 }
-
