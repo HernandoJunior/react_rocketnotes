@@ -32,7 +32,7 @@ export function Home(){
             title: 'ReactJs',
             tags: [
               { id: '1', name: 'React' },
-              { id: '2', name: 'Rocketseat' },
+              { id: '2', name: 'NodeJs' },
             ]
           }}/>
         </Section>
