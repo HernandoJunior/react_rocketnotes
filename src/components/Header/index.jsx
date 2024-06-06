@@ -3,7 +3,7 @@ import { RxExit } from "react-icons/rx";
 export function Header(){
   return (
     <Container>
-      <Profile>
+      <Profile to="/profile">
         <img src="https://github.com/hernandojunior.png"    alt="Imagem de perfil de Hernando"/>
         <div>
           <span>Bem vindo,</span>
